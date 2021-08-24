@@ -1,0 +1,132 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-buttons-color: #ffffff;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: var(--accent-bgr-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.accent,
+.link.main {
+  color: var(--accent-color);
+}
+.link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.item {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.item:hover,
+.item:focus {
+  color: var(--accent-color);
+}
+
+/* эффективные решения */
+.banner-text {
+  color: var(--accent-buttons-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+}
+.banner {
+  background-color: #2f303a;
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--accent-buttons-color);
+  background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+
+/* наши преимущества */
+.advantage {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantage-list {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* чем мы занимаемся */
+.skill,
+.comands {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* наша команда */
+.name,
+.post {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+.post {
+  color: var(--secondary-text-color);
+}
+.comands-section {
+  background-color: #f5f4fa;
+}
+
+/* подвал */
+.footer {
+  background-color: #2f303a;
+  color: var(--accent-buttons-color);
+}
+.footer .logo {
+  color: var(--accent-buttons-color);
+}
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+.footer .item {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .item:hover,
+.footer .item:focus {
+  color: var(--accent-color);
+}
